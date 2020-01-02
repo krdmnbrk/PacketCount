@@ -15,7 +15,7 @@ fi
 echo -e "\nLoading..."
 
 # Run tcpdump
-tcpdump -ni any host $IP >> /dev/null 2> result &
+tcpdump -ni any src $IP >> /dev/null 2> result &
 
 # Catch tcpdump process id
 processID=$!
