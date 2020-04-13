@@ -1,6 +1,6 @@
 #!/bin/sh
 # Author: Burak Karaduman <burakkaradumann@gmail.com>
-# Usage: sh countPackets.sh <capture time as seconds> <ip address>
+# Usage: sh countPackets.sh <capture time as seconds> <source ip address>
 # Example: sh countPackets.sh 60 10.10.10.10
 
 # Define your arguments
